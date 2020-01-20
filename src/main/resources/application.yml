@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: wedding-hotel-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/weddinghotelplanner
+  servlet:
+    multipart:
+      max-file-size: 50MB
+
+server:
+  port: 9000
+
